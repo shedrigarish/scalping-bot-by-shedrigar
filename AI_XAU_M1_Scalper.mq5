@@ -8,14 +8,13 @@
 
 #include <Trade/Trade.mqh>
 
-// Project modules
+#include "Include/Helpers.mqh"
 #include "Include/Indicators.mqh"
 #include "Include/SMC.mqh"
 #include "Include/Confidence.mqh"
 #include "Include/RiskManager.mqh"
 #include "Include/TradeManager.mqh"
 #include "Include/Statistics.mqh"
-#include "Include/Helpers.mqh"
 
 
 //====================================================
