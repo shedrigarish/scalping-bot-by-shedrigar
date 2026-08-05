@@ -142,7 +142,7 @@ void OnDeinit(const int reason)
 void OnTick()
 {
 
-
+   Statistics.CheckHistory();
    // Manage existing positions first
 
    if(PositionSelect(_Symbol))
