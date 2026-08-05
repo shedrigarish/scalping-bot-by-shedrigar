@@ -6,7 +6,7 @@
 
 #ifndef TRADEMANAGER_MQH
 #define TRADEMANAGER_MQH
-
+extern CTrade trade;
 
 class CTradeManager
 {
