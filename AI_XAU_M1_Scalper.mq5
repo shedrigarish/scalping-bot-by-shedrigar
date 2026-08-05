@@ -89,7 +89,10 @@ int OnInit()
 {
 
    trade.SetExpertMagicNumber(MagicNumber);
-
+if(_Symbol!="XAUUSD")
+{
+   Print("Warning: EA designed for XAUUSD");
+}
 
    if(!Indicators.Initialize())
    {
