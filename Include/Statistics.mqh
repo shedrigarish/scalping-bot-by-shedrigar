@@ -187,7 +187,26 @@ void PrintStats()
 
 }
 
+void CheckHistory()
+{
 
+   static datetime lastCheck=0;
+
+
+   if(TimeCurrent()==lastCheck)
+      return;
+
+
+   lastCheck=TimeCurrent();
+
+
+   HistorySelect(
+      0,
+      TimeCurrent()
+   );
+
+
+}
 
 };
 
